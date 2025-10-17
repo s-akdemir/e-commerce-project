@@ -1,16 +1,6 @@
 import React from 'react';
+import { logos } from '../data/mockData';
 
-// Normalde bu logolar bir API'den veya bir obje dizisinden gelir.
-// Şimdilik doğrudan ekleyeceğiz. SVG'leri import etmek en iyi yöntemdir.
-// Geçici olarak imgur linkleri kullanıyorum.
-const logos = [
-  'https://i.imgur.com/vJ4aQIl.png', // hooli
-  'https://i.imgur.com/2Y07Q5c.png', // lyft
-  'https://i.imgur.com/DBIpor1.png', // leaf
-  'https://i.imgur.com/p14wL8p.png', // stripe
-  'https://i.imgur.com/K3aW2y0.png', // aws
-  'https://i.imgur.com/Y3J3k36.png', // reddit
-];
 
 const ClientLogos = () => {
   return (

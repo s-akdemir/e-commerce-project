@@ -1,33 +1,7 @@
 import React from 'react';
 import PostCard from './PostCard';
+import { DUMMY_POSTS } from '../data/mockData'; 
 
-// Sahte gönderi verileri
-const DUMMY_POSTS = [
-  {
-    id: 1,
-    title: 'Loudest à la Madison #1 (L\'integral)',
-    description: 'We focus on ergonomics and meeting you where you work. It\'s only a keystroke away.',
-    imageUrl: 'https://images.unsplash.com/photo-1533228100845-08e2e4b7832a?q=80&w=1887',
-    date: '22 April 2021',
-    comments: 10
-  },
-  {
-    id: 2,
-    title: 'Loudest à la Madison #1 (L\'integral)',
-    description: 'We focus on ergonomics and meeting you where you work. It\'s only a keystroke away.',
-    imageUrl: 'https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?q=80&w=1770',
-    date: '22 April 2021',
-    comments: 10
-  },
-  {
-    id: 3,
-    title: 'Loudest à la Madison #1 (L\'integral)',
-    description: 'We focus on ergonomics and meeting you where you work. It\'s only a keystroke away.',
-    imageUrl: 'https://images.unsplash.com/photo-1599422502931-86a0a9960a58?q=80&w=1770',
-    date: '22 April 2021',
-    comments: 10
-  },
-];
 
 const FeaturedPosts = () => {
   return (

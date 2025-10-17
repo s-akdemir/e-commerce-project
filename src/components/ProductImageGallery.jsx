@@ -1,12 +1,7 @@
 import React from 'react';
+import { DUMMY_PRODUCT_IMAGES } from '../data/mockData';
 
-// Normalde ürün resimleri product objesinden gelir
-const DUMMY_PRODUCT_IMAGES = [
-  'https://images.unsplash.com/photo-1542291026-79eddc756ec3?q=80&w=1770', // Ana resim
-  'https://images.unsplash.com/photo-1549298484-fe4512967272?q=80&w=1770',
-  'https://images.unsplash.com/photo-1595950653106-6c9ebd635d2c?q=80&w=1770',
-  'https://images.unsplash.com/photo-1606107555195-0e29d6b5b29b?q=80&w=1770',
-];
+
 
 const ProductImageGallery = () => {
   const [mainImage, setMainImage] = React.useState(DUMMY_PRODUCT_IMAGES[0]);
