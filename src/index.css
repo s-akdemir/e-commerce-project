@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === SWIPER CUSTOM STYLES BURAYA GELECEK === */
+
+/* Swiper Navigasyon Oklarını Özelleştirme */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ffffff !important; /* Ok rengini beyaz yap */
+  background-color: rgba(0, 0, 0, 0.2); /* Hafif transparan arkaplan ekle */
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%; /* Daire şekli ver */
+}
+
+/* Okların boyutunu ayarla */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+/* Swiper Sayfalama Noktalarını Özelleştirme */
+.swiper-pagination-bullet {
+  background-color: #ffffff !important; /* Nokta rengini beyaz yap */
+  opacity: 0.6;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #23A6F0 !important; /* Aktif nokta rengini mavi yap */
+  opacity: 1;
+}
